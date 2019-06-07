@@ -5,9 +5,13 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.19",
+    "@fortawesome/free-solid-svg-icons": "5.9.0",
+    "@fortawesome/react-fontawesome": "0.1.4",
     "react": "16.8.6",
     "react-div-100vh": "0.3.4",
     "react-dom": "16.8.6",
+    "react-hammerjs": "1.0.1",
     "react-scripts": "3.0.1",
     "styled-components": "4.2.1",
     "tachyons": "4.11.1"
