@@ -93,14 +93,17 @@ class Resizer extends React.Component {
     hammer.get("swipe").set({ direction: Hammer.DIRECTION_VERTICAL });
 
     hammer.on("swipeup", event => {
+      event.preventDefault();
       this.sizeUp();
     });
 
     hammer.on("swipedown", event => {
+      event.preventDefault();
       this.sizeDown();
     });
 
     hammer.on("tap", event => {
+      event.preventDefault();
       this.sizeToggle();
     });
   }
